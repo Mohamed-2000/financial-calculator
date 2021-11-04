@@ -1,0 +1,128 @@
+/* Start Global */
+.font-bold {
+    font-weight: bold;
+}
+/* End Global */
+
+
+label {
+    font-weight: bold;
+    color: #177487;
+}
+.h4-text-color{
+    color: #0a58ca;
+}
+.h5-text-color{
+    color: #0d6efd;
+}
+
+.div-border {
+    border:  2px solid grey;
+}
+
+.rounded-border{
+    border-radius: 10%;
+    font-style: italic;
+    /* box-shadow: 10px 40px 50px; */
+    box-shadow: 5px 5px 14px 8px #dee2e6
+}
+
+.width-brand {
+    width : 10%
+}
+
+
+.card-border{
+    border:  5px solid #e9ecef;
+    border-radius: 5%;
+}
+
+
+.result {
+    background-color: #f2f2f2;
+    height: 15%;
+    border-radius: 10%;
+
+}
+
+.hr-Brand-style {
+    background-color: #DAE2F8;
+    height: 10px;
+    border-radius: 10%;
+    width: 120px;
+}
+.initial-span-width {
+    width: 10%;
+}
+.span-style {
+    background-color: #0dcaf0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 15%;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+.card-span-style {
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+
+.dispaly-flex {
+    display: flex;
+}
+
+
+.span-brand-style {
+    background-color: #ECE9E6;
+    height: 100%;
+    width: 20%;
+    display: block;
+    border-radius: 15%;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+
+.unlimited-style {
+    background-color: #DAE2F8;
+    height: 12px;
+    border-radius: 12%;
+    width: 150px;
+}
+
+.lifetime-style {
+    background-color: #3b67e2;
+    height: 15px;
+    border-radius: 15%;
+    width: 180px;
+}
+
+.Button:hover {
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transform: scale(1.5,1.4);
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+}
+
+.final-result {
+    display: none;
+}
+
+.amex-Brand, .brex-Brand, .stripe-Brand {
+    display: none;
+}
+
+
+.icon-right-style {
+    font-size: 3rem;
+    display: none;
+}
